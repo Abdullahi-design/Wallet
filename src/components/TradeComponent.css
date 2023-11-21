@@ -1,0 +1,43 @@
+/* TradeComponent.css */
+
+.trade-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .trade-card {
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 48%; /* Adjust the width as needed, leaving a small gap between cards */
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buy-card {
+    background-color: #fff;
+    color: rgb(73, 72, 72);
+  }
+  
+  .sell-card {
+    background-color: #fff;
+    color: rgb(73, 72, 72);
+  }
+  .buy-dollar,
+  .sell-dollar {
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-block;
+  }
+  .buy-dollar{
+    background-color: #236f9b;
+  }
+  .sell-dollar{
+    background-color: #da63c6;
+  }
+
+  

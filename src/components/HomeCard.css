@@ -1,0 +1,109 @@
+/* HomeCard.css */
+
+.home-card {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .toggle-container {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .toggle-button {
+    background: none;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  
+  .buy-button,
+  .sell-button {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px; /* Adjust the margin to create space between buttons */
+    cursor: pointer;
+  }
+  .buy-button {
+    background-color: #4caf50;
+  }
+  .sell-button {
+    background-color: #e74c3c;
+  }
+
+  .btc-logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px; /* Adjust the margin as needed for space between the logo and heading */
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-block;
+  }
+
+  .btc-header {
+    display: flex;
+    align-items: center; 
+  }
+  .btc-logo-frame {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .btc-h1 {
+    /* color: #999a9e; */
+    font-size: 18px;
+  }
+
+  .btc-price{
+    font-size: 22px;
+  }
+
+  .btc-short, 
+  .usdt-price{
+    color: #999a9e;
+    font-size: 18px;
+  }
+  .percentage{
+    cursor: pointer;
+    /* padding: 8px; */
+    padding-right: 16px;
+    margin-top: 40px;
+    padding-left: 16px;
+    border-radius: 32px;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+    background-color: #da63c6;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add more styling as needed */
+  

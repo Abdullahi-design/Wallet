@@ -1,0 +1,29 @@
+/* Breadcrumbs.css */
+
+.breadcrumbs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    /* background-color: #fff; */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  span {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 32px;
+    color: #999a9e;
+    transition: background-color 0.3s;
+  }
+  
+  span:hover {
+    background-color: #767880;
+    color: white;
+  }
+  
+  .active {
+    /* background-color: #fff; */
+    color: black;
+  }
+  

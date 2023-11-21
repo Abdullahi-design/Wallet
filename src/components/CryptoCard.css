@@ -1,0 +1,57 @@
+/* CryptoCard.css */
+
+.crypto-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-section,
+  .bottom-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .dot-class {
+    display: flex;
+    align-items: center;
+  }
+  
+  .red-dot,
+  .green-dot,
+  .orange-dot {
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .red-dot {
+    background-color: red;
+    color: red;
+  }
+  
+  .green-dot {
+    background-color: greenyellow;
+    color: greenyellow;
+  }
+  
+  .orange-dot {
+    background-color: goldenrod;
+    color: goldenrod;
+  }
+  
+  .chart-container {
+    margin: 20px 0;
+  }
+  
+  /* Added style for the dot-and-text container */
+  .bottom-section .dot-and-text {
+    display: flex;
+    align-items: center;
+  }
+  
